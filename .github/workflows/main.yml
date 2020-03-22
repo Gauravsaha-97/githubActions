@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  area_of_circle_job:
+    runs-on: windows-latest
+    name: A job to calculate Area of Circle
+      with:
+        radius: 0
+    # Use the output from the `hello` step
+    - name: Get the Area of Circle
+      run: echo "Hello,The Area of Circle is ${area}"
