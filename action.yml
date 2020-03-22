@@ -1,0 +1,13 @@
+name: 'Area of Circle'
+description: 'Finding the area of Circle'
+inputs:
+  radius:  # id of input
+    description: 'Radius of the Circle'
+    required: true
+    default: 0
+outputs:
+  Area: # id of output
+    description: 'Area of the Circle'
+runs:
+  using: 'node12'
+  main: 'index.js'
